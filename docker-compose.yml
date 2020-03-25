@@ -6,7 +6,7 @@ services:
     container_name: lenses
     restart: always
     environment:
-      EULA: "https://dl.lenses.stream/d/?id=${LICENSE}"
+      EULA: "${LICENSE}"
     networks:
       - lenses-box
     ports:
