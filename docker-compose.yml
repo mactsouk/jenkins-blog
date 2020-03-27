@@ -2,7 +2,7 @@ version: '3'
 
 services:
   lenses:
-    image: lensesio/box:3.1
+    image: lensesio/box
     container_name: lenses
     restart: always
     environment:
